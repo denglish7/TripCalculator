@@ -1,0 +1,13 @@
+<div ng-controller="tripController">
+    <form class="" action="#/">
+        <input type="submit" value="Go back">
+    </form>
+    <div class="info">
+        <h1>Here is your trip spending info:</h1>
+        <h3>The total cost of your trip was ${{total.toFixed(2)}}</h3>
+
+        <h3>{{highestSpender.name}} paid the most money on this trip.</h3>
+        <h3 ng-repeat="people in people">{{people.name}} owes {{highestSpender.name}} ${{people.owes.toFixed(2)}}.</h3>
+    </div>
+
+</div>

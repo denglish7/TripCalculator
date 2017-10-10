@@ -1,0 +1,25 @@
+.errors {
+    color: red;
+}
+.info {
+    padding: 5px;
+    margin: 5px;
+}
+
+.person {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+input {
+    display: block;
+}
+
+button {
+    margin: 5px;
+}
+button:hover {
+    opacity: 0.8;
+}
